@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#6574FF",
+        "flexDirection": "row",
+        "padding": 15,
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/profile.png",
+        }
+      }
+      style={
+        {
+          "height": 30,
+          "width": 30,
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "alignSelf": "center",
+          "color": "#ffffff",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "marginLeft": 10,
+        }
+      }
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignSelf": "center",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 8,
+          "opacity": 1,
+          "padding": 10,
+          "position": "absolute",
+          "right": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6574FF",
+            "fontSize": 15,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Logout
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginHorizontal": 15,
+        "marginTop": 15,
+      }
+    }
+  >
+    <TextInput
+      defaultValue=""
+      onChangeText={[Function]}
+      placeholder="Search"
+      placeholderTextColor="#6574FF"
+      style={
+        {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#6574FF",
+          "borderRadius": 20,
+          "borderWidth": 1,
+          "flex": 1,
+          "padding": 10,
+          "paddingStart": 15,
+        }
+      }
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#6574FF",
+          "borderRadius": 20,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "marginStart": 10,
+          "opacity": 1,
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/desc.png",
+          }
+        }
+        style={
+          {
+            "height": 30,
+            "width": 30,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text>
+      No matching note found
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignSelf": "center",
+        "backgroundColor": "#6574FF",
+        "borderRadius": 300,
+        "bottom": 10,
+        "opacity": 1,
+        "padding": 15,
+        "position": "absolute",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/add.png",
+        }
+      }
+      style={
+        {
+          "height": 30,
+          "width": 30,
+        }
+      }
+    />
+  </View>
+</View>
+`;

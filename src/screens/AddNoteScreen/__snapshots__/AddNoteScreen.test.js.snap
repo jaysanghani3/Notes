@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "justifyContent": "space-between",
+      "padding": 14,
+    }
+  }
+>
+  <View>
+    <TextInput
+      defaultValue="test"
+      maxLength={15}
+      onChangeText={[Function]}
+      placeholder="Title"
+      style={
+        {
+          "borderBottomWidth": 1,
+          "borderColor": "#B6B6B6",
+          "fontSize": 25,
+          "fontWeight": "bold",
+          "padding": 5,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#D32F2F",
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "#B6B6B6",
+            "textAlign": "right",
+          }
+        }
+      >
+        4
+        /
+        15
+      </Text>
+    </View>
+    <RCTScrollView>
+      <View>
+        <TextInput
+          defaultValue="test"
+          multiline={true}
+          numberOfLines={10}
+          onChangeText={[Function]}
+          placeholder="Write your note details here..."
+          style={
+            {
+              "borderColor": "#B6B6B6",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "fontSize": 17,
+              "marginVertical": 10,
+              "maxHeight": 250,
+              "padding": 10,
+            }
+          }
+          textAlignVertical="top"
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#6574FF",
+          "borderRadius": 8,
+          "marginBottom": 5,
+          "opacity": 1,
+          "padding": 15,
+          "width": "48%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Reset
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#6574FF",
+          "borderRadius": 8,
+          "marginBottom": 5,
+          "opacity": 1,
+          "padding": 15,
+          "width": "48%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Add
+      </Text>
+    </View>
+  </View>
+</View>
+`;

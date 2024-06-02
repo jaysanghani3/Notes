@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../src/assets/logo.png",
+      }
+    }
+  />
+  <Text
+    style={
+      {
+        "color": "#1D5B79",
+        "fontSize": 50,
+        "fontWeight": "800",
+      }
+    }
+  >
+    Fundwave
+  </Text>
+</View>
+`;

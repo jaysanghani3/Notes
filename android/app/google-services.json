@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "739859832865",
+    "firebase_url": "https://fundwave-16253-default-rtdb.firebaseio.com",
+    "project_id": "fundwave-16253",
+    "storage_bucket": "fundwave-16253.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739859832865:android:db825b4604219d5eaf4360",
+        "android_client_info": {
+          "package_name": "com.fundwave"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTwPW5UvJos1MRX2jvHLnzhxB47xTfcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
